@@ -3138,3 +3138,7 @@ tests:
     text: https://twitter.onion
     expected:
     - https://twitter.onion
+  - description: dev is a valid generic tld
+    text: https://twitter.dev
+    expected:
+    - https://twitter.dev
